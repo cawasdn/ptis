@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="UTF-8">
@@ -8,10 +7,7 @@
 </head>
 
 <body>
-
+    <h2> Patient - {{ $id }}</h2>
 </body>
-<h1>hello</h1>
-
-<a href="/home">Home</a>
 
 </html>
