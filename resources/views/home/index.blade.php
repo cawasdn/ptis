@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PTIS | Home</title>
-</head>
-
-<body>
+<x-layout>
     <h2>Home</h2>
     <p>{{ $greetings }}</p>
 
@@ -32,6 +23,4 @@
             <a href="/home/{{ $hi[1]['id'] }}">{{ $hi[1]['birthday'] }}</a>
         </li>
     </ul> --}}
-</body>
-
-</html>
+</x-layout>

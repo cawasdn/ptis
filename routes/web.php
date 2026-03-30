@@ -17,6 +17,10 @@ Route::get('/home', function () {
  return view('home.index', ["greetings" => "hello", "hi" => $patients]);
 });
 
+Route::get('/home/new', function () {
+    return view('/home.new');
+});
+
 Route::get('/home/{id}', function ($id) {
 // fetch records with id
  return view('home.show', ["id" => $id]);
