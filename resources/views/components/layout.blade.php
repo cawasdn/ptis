@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaTient Information System</title>
     @vite('resources/css/app.css')
+
 </head>
 
 <body>
@@ -20,6 +21,7 @@
     <main class="container">
         {{ $slot }}
     </main>
+
 </body>
 
 </html>
